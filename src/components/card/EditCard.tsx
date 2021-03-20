@@ -87,7 +87,7 @@ const EditCard: FC<Props> = ({ listId, open, handleClose, cardId }) => {
           <MuiPickersUtilsProvider utils={DateFnsUtils}>
             <KeyboardDatePicker
               disableToolbar
-              label="Дата"
+              label="Due Date"
               variant="inline"
               format="MM/dd/yyyy"
               margin="dense"
