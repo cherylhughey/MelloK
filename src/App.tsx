@@ -5,7 +5,6 @@ import { v4 as uuidv4 } from "uuid";
 import { AppBar, Toolbar, Typography } from "@material-ui/core";
 import Board from "./components/Board";
 
-
 const App = () => {
   const dispatch = useDispatch();
   useEffect(() => {
@@ -15,21 +14,21 @@ const App = () => {
       addCard({
         listId: firstListId,
         cardId: uuidv4(),
-        cardTitle: "First card",
+        cardTitle: "First card"
       })
     );
     dispatch(
       addCard({
         listId: firstListId,
         cardId: uuidv4(),
-        cardTitle: "Second card",
+        cardTitle: "Second card"
       })
     );
     dispatch(
       addCard({
         listId: firstListId,
         cardId: uuidv4(),
-        cardTitle: "Third card",
+        cardTitle: "Third card"
       })
     );
     const secondListId = uuidv4();
@@ -38,21 +37,21 @@ const App = () => {
       addCard({
         listId: secondListId,
         cardId: uuidv4(),
-        cardTitle: "First card",
+        cardTitle: "First card"
       })
     );
     dispatch(
       addCard({
         listId: secondListId,
         cardId: uuidv4(),
-        cardTitle: "Second card",
+        cardTitle: "Second card"
       })
     );
     dispatch(
       addCard({
         listId: secondListId,
         cardId: uuidv4(),
-        cardTitle: "Third card",
+        cardTitle: "Third card"
       })
     );
     const thirdListId = uuidv4();
@@ -61,7 +60,7 @@ const App = () => {
       addCard({
         listId: thirdListId,
         cardId: uuidv4(),
-        cardTitle: "First card",
+        cardTitle: "First card"
       })
     );
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -70,9 +69,12 @@ const App = () => {
   return (
     <>
       <AppBar position="static">
-        <Toolbar variant="dense" style={{display: 'flex', justifyContent: 'center'}}>
+        <Toolbar
+          variant="dense"
+          style={{ display: "flex", justifyContent: "center" }}
+        >
           <Typography variant="h6" color="inherit">
-            Trello
+            MelloK
           </Typography>
         </Toolbar>
       </AppBar>
