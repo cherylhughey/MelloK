@@ -1,1 +1,1 @@
-Simple Trello Clone
+MelloK Kanban
