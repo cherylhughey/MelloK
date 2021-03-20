@@ -1,2 +1,1 @@
-# MelloK
-Created with CodeSandbox
+Simple Trello Clone
